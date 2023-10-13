@@ -180,12 +180,12 @@ button {
 
     h1 {
         font-size: 40px;
-        letter-spacing: 0; /* Restablece la separación de letras en dispositivos pequeños */
+        letter-spacing: 0;
     }
 
     .hero {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center; /* Centra los elementos verticalmente */
         justify-content: center;
         height: auto; /* Ajusta la altura automáticamente */
@@ -200,8 +200,8 @@ button {
     }
 
     .hero__input input {
-        height: 60px;
-        font-size: 40px;
+        height: 50px;
+        font-size: 30px;
         width: 150px;
     }
 
@@ -213,6 +213,7 @@ button {
     .cifrado, .descifrado {
         height: auto;
         margin: auto;
+        display: flex;
     }
 
     #mensajeError {
@@ -223,5 +224,6 @@ button {
 
     body{
         height: 150vh;
+        width: 100%;
     }
 }

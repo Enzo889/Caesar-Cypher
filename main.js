@@ -34,6 +34,7 @@ function transformarTexto(texto, clave, operacion) {
 }
 
 function cifrarTexto() {
+
     const textoParaCifrar = document.getElementById("textoParaCifrar").value;
     const clave = parseInt(document.getElementById("clave").value);
     const mensajeError = document.getElementById("mensajeError");
